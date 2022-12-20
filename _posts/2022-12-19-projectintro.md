@@ -16,3 +16,5 @@ To assess this primary question, I evaluated data from City Health Dashboard, a 
 
 ## Analysis Overview
 Evaluated several types of linear regressions were evaluated for best model fit. Each covariate is measured as a percentage of the state population, with further details of estimate calculations reported in the City Health Technical Report. On account of having continuous outcome data (lifespan) and multiple continuous covariates, a linear regression was identified as the optimal model. Upon evaluation of a generalized linear model, a cubic spline, quadratic and generalized additive model were evaluated on account of the distribution of the data. Model selection was based off of visual fit and AIC, which identified the generalized additive model to best fit the data.
+
+![Figure 1. Mean Air Pollution and Lifespan by U.S. State](../bst260_fig1.png)
